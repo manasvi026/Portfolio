@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Airal ', sans-serif;
+            margin: 0;
+            padding: 0;
+            
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,
+            rgba(8,40,142,1) 45%, rgba(3,143,210,1) 78%, rgba(0,212,255,1) 100%);
+        }
+
+        header, section, footer {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #2fc8e3;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MANASVI BORKAR</h1>
+        <img src="/Users/mackbook/Downloads/me.jpeg" width="250x250">
+        <p>Nice to meet you. <br>
+        Hope we get along with each other in  future.</p>
+    </header>
+
+    <section>
+        <h2>I like a lot of things....</h2>
+        <p>Hello! I'm a passionate web developer with a love for creating beautiful and functional websites.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>C/C++</li>
+            <li>PYTHON</li>
+            <li>HTML5</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>PROJECTS</h2>
+        <div>
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+        <div>
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:manasviborkar3@gmail.com"><manasviborkar3@gmail.com"></manasviborkar3>.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/Manasvi Borkar">LinkedIn Profile</a></p>
+    </section>
+
+    <footer>
+        &copy; 2023 manasvi borkar
+    </footer>
+</body>
+</html>
